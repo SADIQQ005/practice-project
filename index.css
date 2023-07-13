@@ -173,7 +173,7 @@ section p {
 
 /* Media query responsive design */
 
-@media (max-width: 780px) {
+@media (min-width: 280px) and (max-width: 768px) {
   header {
     display: flex;
     align-items: center;
@@ -199,7 +199,7 @@ section p {
     justify-content: center;
   }
 
-  second_img_card{
+  second_img_card {
     float: right;
   }
 
